@@ -1,0 +1,84 @@
+<!doctype html>
+<!-- język kodu -->
+<html lang="pl-PL">
+<!-- język strony -->
+	<head>
+		<meta charset="UTF-8">
+		<!-- standard kodowania -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- rozciągalność mobilna -->
+		<meta name="description" content="Strona przedstawiające moje hobby">
+		<!-- opis strony -->
+		<meta name="keywords" content="Hobby, Piłka Nożna, Skakanka, CS:GO">
+		<!-- słowa kluczowe -->
+		<meta name="author" content="Kasper King">
+		<!-- autor -->
+		<link rel="stylesheet" href="styl.css">
+		<!-- odwołanie do pliku stylów -->
+		<title>Pomoc</title>
+		<!-- tytuł -->
+	</head>
+	<body id="szare">
+		<div id="header">
+			<h1 id="tekstNaglowkowy">Pomoc</h1>
+		</div>
+		<div id="mainHeader">
+		<!-- nagłówek -->
+			<ul id="block">
+				<li id="inHeader"><a href="index.html">Strona Główna</a></li>
+				<!-- strona główna -->
+				<li id="inHeader"><a href="pilkaNozna.html">Piłka Nożna</a>
+				<!-- strona o piłce nożnej -->
+					<ul>
+						<li><a href="pilkaZasady.html">Zasady</a></li>
+						<li><a href="pilkaRozgrywki.html">Rozgrywki</a></li>
+						<li><a href="pilkaStatystyki.html">Statystyki</a></li>
+					</ul>
+				</li>
+				<li id="inHeader"><a href="skakanka.html">Skakanka</a>
+				<!-- strona o skakance-->
+					<ul>
+						<li><a href="skakankaPodstawy.html">Podstawy</a></li>
+						<li><a href="skakankaPropozycje.html">Propozycje</a></li>
+						<li><a href="skakankaTricki.html">Tricki</a></li>
+					</ul>
+				<!-- menu zagnieżdzone -->
+				</li>
+				<li id="inHeader"><a href="csgo.html">CS:GO</a>
+				<!-- strona o cs:go-->
+					<ul>
+						<li><a href="csgoTrybyGry.html">Tryby gry</a></li>
+						<li><a href="csgoEsport.html">CS:GO w e-sporcie</a></li>
+						<li><a href="csgoWyposazenie.html">Wyposażenie</a></li>
+					</ul>
+				<!-- menu zagnieżdzone -->
+				</li>
+			</ul>
+		</div>
+		<div id="contentPomoc">
+			<section id="Pomoc">
+			<span class="spanHeader">Wyślij prośbę o pomoc:</span><br><br><br>
+				<form action="mailto:wymyslonyadresemailniematakiego@gmail.com" method="post">
+				Podaj swoje imię:<br>
+				<input name="dane" value="" size="30">
+				<br><br><br>
+				Opisz swój problem:<br>
+				<textarea id="tekstarea" cols="125" rows="10">Tutaj opisz swój problem</textarea>
+				<br><br><br>
+				<input type="submit" value="Wyślij"> <input type="reset" value="Wyczyść" name="zeruj">
+				</form>
+			</section>
+		</div>
+		<div id="footer">
+		<!-- stopka -->
+		<ul>
+				<li id="inFooter"><a href="regulamin.html">Regulamin</a></li>
+				<!-- strona z regulaminem -->
+				<li id="inFooter"><a href="faq.html">FAQ</a></li>
+				<!-- strona z najczęściej zadawanymi pytaniami -->
+				<li id="inFooter"><a href="pomoc.html">Pomoc</a></li>
+				<!-- strona z możliwością wysłania wiadomości o pomoc -->
+		</ul>
+		</div>
+	</body>
+</html>

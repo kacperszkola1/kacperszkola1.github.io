@@ -1,0 +1,1779 @@
+/* styl zawartości strony */
+body {
+	/* brak obramowania wokół strony */
+	margin: 0;
+}
+body#szare {
+	/* brak obramowania wokół strony */
+	margin: 0;
+	background-color: grey;
+}
+/* styl nagłówka */
+#header {
+	/* szerokość nagłówka */
+	width: 100%;
+	/* wysokość nagłówka */
+	height: 100px;
+	/* wyśrodkowanie tekstu */
+	text-align: center;
+	/* kolor tła */
+	background: #009999;
+	/* brak pustych przestrzeni*/
+	overflow: hidden;
+}
+/* styl tekstu nagłówkowego */
+#tekstNaglowkowy {
+	/* wyświetlanie wszystkiego w linii poziomej */
+	display: inline-block;
+}
+/* styl głównego nagłówka */
+#mainHeader {
+	/* szerokość nagłówka */
+	width: 100%;
+	/* żeby działało na safari */
+	position: -webkit-sticky;
+	/* przyklejone menu */
+	position: sticky;
+	/* pozycja górna (bez tego nie działa) */
+	top: 0;
+}
+/* styl rozwinięcia */
+#content {
+	/* szerokość rozwinięcia */
+	width: 100%;
+	/* wysokość rozwinięcia */
+	height: 800px;
+}
+#contentRegulamin {
+	/* szerokość rozwinięcia */
+	width: 50%;
+	/* wysokość rozwinięcia */
+	height: 1000px;
+	background-color: #99FFFF;
+	margin: auto;
+	overflow: hidden;
+}
+#contentFAQ {
+	/* szerokość rozwinięcia */
+	width: 50%;
+	/* wysokość rozwinięcia */
+	height: 800px;
+	background-color: #99FFFF;
+	margin: auto;
+	overflow: hidden;
+}
+#contentPomoc {
+	/* szerokość rozwinięcia */
+	width: 50%;
+	/* wysokość rozwinięcia */
+	height: 800px;
+	background-color: #99FFFF;
+	margin: auto;
+	overflow: hidden;
+}
+/* styl rozwinięcia w podstronach */
+#secondContent {
+	/* szerokość rozwinięcia */
+	width: 100%;
+	/* wysokość rozwinięcia */
+	height: 800px;
+}
+#secondContentRozgrywki {
+	/* szerokość rozwinięcia */
+	width: 100%;
+	/* wysokość rozwinięcia */
+	height: 1175px;
+}
+
+#secondContentStatystyki {
+	/* szerokość rozwinięcia */
+	width: 100%;
+	/* wysokość rozwinięcia */
+	height: 800px;
+}
+/* styl lewego panelu */
+#leftPanel {
+	/* szerokość lewego panelu */
+	width: 33.333%;
+	height: 800px;
+	/* opływanie z lewej */
+	float: left;
+	/* wyśrodkowanie tekstu */
+	text-align: center;
+	/* wstawienie obrazka */
+	background-image: url(pilkaNozna.jpg);
+	/* nie ucianie obrazka */
+	background-repeat: round;
+	/* obrys obrazka */
+	outline: 2px solid #99FFFF;
+	outline-offset: -2px;
+}
+/* styl środkowego panelu */
+#middlePanel {
+	/* szerokość środkowego panelu */
+	width: 33.333%;
+	height: 800px;
+	/* opływanie z lewej */
+	float: left;
+	/* wyśrodkowanie tekstu */
+	text-align: center;
+	/* wstawienie obrazka */
+	background-image: url(jumpRope.jpg);
+	/* nieucinanie obrazka */
+	background-repeat: round;
+	/* obrys obrazka */
+	outline: 2px solid #99FFFF;
+	outline-offset: -2px;
+}
+/* styl prawego panelu */
+#rightPanel {
+	/* szerokość prawego panelu */
+	width: 33.333%;
+	height: 800px;
+	/* opływanie z lewej */
+	float: left;
+	/* wyśrodkowanie tekstu */
+	text-align: center;
+	/* wstawienie obrazka */
+	background-image: url(csgo.jpg);
+	/* nieucinanie obrazka */
+	background-repeat: round;
+	/* obrys obrazka */
+	outline: 2px solid #99FFFF;
+	outline-offset: -2px;
+}
+/* styl lewego panelu w podstronach*/
+#left {
+	/* szerokość */
+	width: 25%;
+	/* wysokość */
+	height: 800px;
+	/* opływanie z lewej */
+	float: left;
+	/* kolor tła */
+	background-color: #009999;
+}
+#leftRozgrywki {
+	/* szerokość */
+	width: 25%;
+	/* wysokość */
+	height: 1175px;
+	/* opływanie z lewej */
+	float: left;
+	/* kolor tła */
+	background-color: #009999;
+}
+#secondContentZasady {
+	/* szerokość rozwinięcia */
+	width: 100%;
+	/* wysokość rozwinięcia */
+	height: 4000px;
+}
+#leftZasady {
+	width: 100%;
+	/* wysokość */
+	height: 400px;
+	/* opływanie z lewej */
+	float: none;
+	/* kolor tła */
+	background-color: #009999;
+	overflow: hidden;
+}
+#rightZasady {
+	/* szerokość */
+	width: 100%;
+	/* wysokość */
+	height: 3600px;
+	/* opływanie z lewej */
+	float: none;
+	/* kolor tła */
+	background-color: #99FFFF;
+	overflow: hidden;
+}
+/* styl lewego panelu piłkarskiego */
+#leftFootball {
+	/* szerokość */
+	width: 25%;
+	/* wysokość */
+	height: 800px;
+	/* opływanie z lewej */
+	float: left;
+	/* kolor tła */
+	background-color: #009999;
+	/* wstawienie obrazka */
+	background-image: url(cr7.jpg);
+	/* nieucinanie obrazka */
+	background-repeat: round;
+}
+#leftStatystyki {
+	/* szerokość */
+	width: 25%;
+	/* wysokość */
+	height: 800px;
+	/* opływanie z lewej */
+	float: left;
+	/* kolor tła */
+	background-color: #009999;
+}
+/* styl prawego panelu w podstronach */
+#right {
+	/* szerokość */
+	width: 75%;
+	/* wysokość */
+	height: 800px;
+	/* opływanie z lewej */
+	float: left;
+	/* kolor tła */
+	background-color: #99FFFF;
+}
+#rightRozgrywki {
+	/* szerokość */
+	width: 75%;
+	/* wysokość */
+	height: 1175px;
+	/* opływanie z lewej */
+	float: left;
+	/* kolor tła */
+	background-color: #99FFFF;
+}
+
+#rightStatystyki {
+	/* szerokość */
+	width: 75%;
+	/* wysokość */
+	height: 800px;
+	/* opływanie z lewej */
+	float: left;
+	/* kolor tła */
+	background-color: #99FFFF;
+}
+#lewaSekcja {
+	/* szerokość */
+	width: 50%;
+	/* opływanie z lewej */
+	float: left;
+	/* kolor tła */
+	outline: 2px solid #009999;
+	/* obrys w środku section */
+	outline-offset: -4px;
+}
+#prawaSekcja {
+	/* szerokość */
+	width: 50%;
+	/* opływanie z lewej */
+	float: left;
+	/* kolor tła */
+	outline: 2px solid #009999;
+	/* obrys w środku section */
+	outline-offset: -4px;
+}
+#secondContentCSGO {
+	/* szerokość rozwinięcia */
+	width: 100%;
+	/* wysokość rozwinięcia */
+	height: 800px;
+}
+#leftCSGO {
+	/* szerokość */
+	width: 25%;
+	/* wysokość */
+	height: 800px;
+	/* opływanie z lewej */
+	float: left;
+	/* kolor tła */
+	background-color: #009999;
+		/* wstawienie obrazka */
+	background-image: url(csgoleft.jpg);
+	/* nieucinanie obrazka */
+	background-repeat: round;
+}
+#rightCSGO {
+	/* szerokość */
+	width: 75%;
+	/* wysokość */
+	height: 800px;
+	/* opływanie z lewej */
+	float: left;
+	/* kolor tła */
+	background-color: #99FFFF;
+}
+#secondContentTrybyGry {
+	/* szerokość rozwinięcia */
+	width: 100%;
+	/* wysokość rozwinięcia */
+	height: 1500px;
+}
+#leftTrybyGry {
+	/* szerokość */
+	width: 25%;
+	/* wysokość */
+	height: 1500px;
+	/* opływanie z lewej */
+	float: left;
+	/* kolor tła */
+	background-color: #009999;
+	/* wstawienie obrazka */
+}
+#rightTrybyGry {
+	/* szerokość */
+	width: 75%;
+	/* wysokość */
+	height: 1500px;
+	/* opływanie z lewej */
+	float: left;
+	/* kolor tła */
+	background-color: #99FFFF;
+}
+#secondContentEsport {
+	/* szerokość rozwinięcia */
+	width: 100%;
+	/* wysokość rozwinięcia */
+	height: 1100px;
+}
+#leftEsport {
+	/* szerokość */
+	width: 25%;
+	/* wysokość */
+	height: 1100px;
+	/* opływanie z lewej */
+	float: left;
+	/* kolor tła */
+	background-color: #009999;
+	/* wstawienie obrazka */
+}
+#rightEsport {
+	/* szerokość */
+	width: 75%;
+	/* wysokość */
+	height: 1100px;
+	/* opływanie z lewej */
+	float: left;
+	/* kolor tła */
+	background-color: #99FFFF;
+}
+#secondContentWyposazenie {
+	/* szerokość rozwinięcia */
+	width: 100%;
+	/* wysokość rozwinięcia */
+	height: 800px;
+}
+#leftWyposazenie {
+	/* szerokość */
+	width: 25%;
+	/* wysokość */
+	height: 800px;
+	/* opływanie z lewej */
+	float: left;
+	/* kolor tła */
+	background-color: #009999;
+	/* wstawienie obrazka */
+}
+#rightWyposazenie {
+	/* szerokość */
+	width: 75%;
+	/* wysokość */
+	height: 800px;
+	/* opływanie z lewej */
+	float: left;
+	/* kolor tła */
+	background-color: #99FFFF;
+}
+#secondContentSkakanka {
+	/* szerokość rozwinięcia */
+	width: 100%;
+	/* wysokość rozwinięcia */
+	height: 800px;
+}
+#leftSkakanka {
+	/* szerokość */
+	width: 25%;
+	/* wysokość */
+	height: 800px;
+	/* opływanie z lewej */
+	float: left;
+	/* kolor tła */
+	background-color: #009999;
+		/* wstawienie obrazka */
+	background-image: url(jumpropeleft.jpg);
+	/* nieucinanie obrazka */
+	background-repeat: round;
+}
+#rightSkakanka {
+	/* szerokość */
+	width: 75%;
+	/* wysokość */
+	height: 800px;
+	/* opływanie z lewej */
+	float: left;
+	/* kolor tła */
+	background-color: #99FFFF;
+}
+#secondContentPodstawy {
+	/* szerokość rozwinięcia */
+	width: 100%;
+	/* wysokość rozwinięcia */
+	height: 800px;
+}
+#leftPodstawy {
+	/* szerokość */
+	width: 25%;
+	/* wysokość */
+	height: 800px;
+	/* opływanie z lewej */
+	float: left;
+	/* kolor tła */
+	background-color: #009999;
+	text-align: center;
+}
+#rightPodstawy {
+	/* szerokość */
+	width: 75%;
+	/* wysokość */
+	height: 800px;
+	/* opływanie z lewej */
+	float: left;
+	/* kolor tła */
+	background-color: #99FFFF;
+}
+#secondContentPropozycje {
+	/* szerokość rozwinięcia */
+	width: 100%;
+	/* wysokość rozwinięcia */
+	height: 800px;
+}
+#leftPropozycje {
+	/* szerokość */
+	width: 25%;
+	/* wysokość */
+	height: 800px;
+	/* opływanie z lewej */
+	float: left;
+	/* kolor tła */
+	background-color: #009999;
+	text-align: center;
+}
+#rightPropozycje {
+	/* szerokość */
+	width: 75%;
+	/* wysokość */
+	height: 800px;
+	/* opływanie z lewej */
+	float: left;
+	/* kolor tła */
+	background-color: #99FFFF;
+	text-align: center;
+}
+#secondContentTricki {
+	/* szerokość rozwinięcia */
+	width: 100%;
+	/* wysokość rozwinięcia */
+	height: 800px;
+}
+#leftTricki {
+	/* szerokość */
+	width: 25%;
+	/* wysokość */
+	height: 800px;
+	/* opływanie z lewej */
+	float: left;
+	/* kolor tła */
+	background-color: #009999;
+	text-align: center;
+}
+#rightTricki {
+	/* szerokość */
+	width: 75%;
+	/* wysokość */
+	height: 800px;
+	/* opływanie z lewej */
+	float: left;
+	/* kolor tła */
+	background-color: #99FFFF;
+}
+div #tytul {
+	font-size: 30px;
+}
+/* styl stopki */
+#footer {
+	/* szerokość stopki */
+	width: 100%;
+	/* żeby działało na safari */
+	position: -webkit-sticky;
+	/* przyklejone menu */
+	position: sticky;
+	/* pozycja dolna (bez tego nie działa) */
+	bottom: 0;
+}
+/* styl listy nienumerowej - nasze menu */
+ul {
+	/* styl punktora - tutaj brak*/
+	list-style-type: none;
+	/* styl marginesów zewnętrznych */
+	margin: 0;
+	/* styl marginesów wewnętrznych*/
+	padding: 0;
+	/* bez tego psuje się menu*/
+	overflow: hidden;
+	/* kolor tła menu */
+	background-color: #006666;
+}
+/* styl rozwijanego menu */
+#block ul {
+	/* pozycjonowanie bezwzględne */
+	position: absolute;
+	/* schowanie wysuwanego menu*/
+	visibility: hidden;
+}
+/* styl rozwijanego menu */
+#block li:hover ul {
+	/* widoczność rozwijanego menu (po najechaniu kursorem) */
+	visibility: visible;
+	/* szerokość (taka sama jak szerokość elementó menu) */
+	width: 25%;
+	/* wysokość automatyczna */
+	height: auto;
+}
+/* styl menu górnego */
+#inHeader {
+	/* opływanie elementów listy z lewej */
+	float: left;
+	/* szerokość (taka, żeby się zmieściły 4 elementy) */
+	width: 25%;
+}
+/* styl menu dolnego */
+#inFooter {
+	/* opływanie elementów listy z lewej */
+	float: left;
+	/* szerokość (taka, żeby się zmieściły 3 elementy */
+	width: 33.333%;
+}
+/* styl wyglądu przycisku */
+li a {
+	font-size: 20px;
+	/* wyświetlanie w jednej linii */
+	display: block;
+	/* kolor tekstu (bez najechania) */
+	color: black;
+	/* wyśrodkowanie tekstu */
+	text-align: center;
+	/* marginesy wewnętrzne (1 wartość to górny i dolny, 2 wartość to lewy i prawy
+	(nie działa, bo jest ustawiona sztywna wysokość)) */
+	padding: 14px 16px;
+	/* eliminowanie niepotrzebnych właściwości tekstu, np. podkreślenia */
+	text-decoration: none;
+}
+/* styl przycisku po najechaniu - DZIAŁA TYLKO NA DOLNE MENU! */
+li a:hover {
+	/* kolor tła menu dolnego po najechaniu */
+	background-color: #99FFFF;
+	/* kolor tekstu dolnego menu po najechaniu */
+	color: black;
+}
+/* styl rozwijanego menu */
+#block li:hover li a {
+	/* kolor tekstu rozwijanego menu */
+	color: black;
+	/* wyśrodkowanie tekstu */
+	text-align: center;
+	/* eliminowanie niepotrzebnych właściowości tekstu, np. podkreślenia */
+	text-decoration: none;
+	/* kolor tła rozwijanego menu */
+	background-color: #99FFFF;
+}
+/* styl przycisku po najechaniu w rozwijanym menu - działa tylko na górne menu! */
+#block li:hover a, #block li:hover li:hover a {
+	/* kolor opcji po najechaniu na nią w rozwijanym menu */
+	background-color: #66FFFF;
+	/* kolor tekstu opcji po najechaniu na nią */
+	color: black;
+}
+#zasadyLista {
+	font-size: 36px;
+	margin-top: 0;
+	outline: 1px solid black;
+	outline-offset: -3px;
+}
+#zasadyOpis {
+	font-size: 20px;
+}
+#spisZasadyLista {
+	font-size: 48px;
+	margin-top: 0;
+	margin-bottom: 0;
+	text-align: center;
+}
+/* kolor tekstu hiperłącza na obrazku */
+.clickablePicture {
+	color: black;
+}
+/* styl lewego obrazka */
+#miniPicture1 {
+	float: left;
+}
+/* styl prawego obrazka */
+#miniPicture2 {
+	float: right;
+}
+/* linia lewa górna */
+#leftUp {
+	/* ustawienie na samej górze */
+	margin-top: 0;
+	/* styl linii */
+	border: 2px solid #99FFFF;
+}
+/* tekst w akapicie */
+div #firstText {
+	/* górny margines */
+	margin-top: 2px;
+	/* wyjustowanie tekstu */
+	text-align: justify;
+	/* wielkość tekstu */
+	font-size: 20px;
+	/* obrys tekstu */
+	outline: 2px solid #009999;
+	/* obrys w środku diva */
+	outline-offset: -4px;
+	/* margines wewnętrzny */
+	padding: 15px 15px;
+}
+div #secondText {
+	/* górny margines */
+	margin-top: 2px;
+	/* wyjustowanie tekstu */
+	text-align: justify;
+	/* wielkość tekstu */
+	font-size: 20px;
+	/* obrys tekstu */
+	outline: 2px solid #009999;
+	/* obrys w środku diva */
+	outline-offset: -4px;
+	/* margines wewnętrzny */
+	padding: 15px 15px;
+}
+div #thirdText {
+	/* górny margines */
+	margin-top: 2px;
+	/* wyjustowanie tekstu */
+	text-align: justify;
+	/* wielkość tekstu */
+	font-size: 20px;
+	/* obrys tekstu */
+	outline: 2px solid #009999;
+	/* obrys w środku diva */
+	outline-offset: -4px;
+	/* margines wewnętrzny */
+	padding: 15px 15px;
+}
+div #laLiga {
+	/* górny margines */
+	margin-top: 2px;
+	/* wyjustowanie tekstu */
+	text-align: justify;
+	/* wielkość tekstu */
+	font-size: 20px;
+	/* obrys tekstu */
+	outline: 2px solid #009999;
+	/* obrys w środku diva */
+	outline-offset: -4px;
+	/* margines wewnętrzny */
+	padding: 15px 15px;
+}
+div #premierLeague {
+	/* górny margines */
+	margin-top: 2px;
+	/* wyjustowanie tekstu */
+	text-align: justify;
+	/* wielkość tekstu */
+	font-size: 20px;
+	/* obrys tekstu */
+	outline: 2px solid #009999;
+	/* obrys w środku diva */
+	outline-offset: -4px;
+	/* margines wewnętrzny */
+	padding: 15px 15px;
+}
+div #serieA {
+	/* górny margines */
+	margin-top: 2px;
+	/* wyjustowanie tekstu */
+	text-align: justify;
+	/* wielkość tekstu */
+	font-size: 20px;
+	/* obrys tekstu */
+	outline: 2px solid #009999;
+	/* obrys w środku diva */
+	outline-offset: -4px;
+	/* margines wewnętrzny */
+	padding: 15px 15px;
+}
+div #bundesliga {
+	/* górny margines */
+	margin-top: 2px;
+	/* wyjustowanie tekstu */
+	text-align: justify;
+	/* wielkość tekstu */
+	font-size: 20px;
+	/* obrys tekstu */
+	outline: 2px solid #009999;
+	/* obrys w środku diva */
+	outline-offset: -4px;
+	/* margines wewnętrzny */
+	padding: 15px 15px;
+}
+div #ligueOne {
+	/* górny margines */
+	margin-top: 2px;
+	/* wyjustowanie tekstu */
+	text-align: justify;
+	/* wielkość tekstu */
+	font-size: 20px;
+	/* obrys tekstu */
+	outline: 2px solid #009999;
+	/* obrys w środku diva */
+	outline-offset: -4px;
+	/* margines wewnętrzny */
+	padding: 15px 15px;
+}
+div #remis {
+	margin: 2px 10px;
+	text-align: justify;
+	font-size: 20px;
+	outline: 2px solid black;
+	outline-offset: -4px;
+	padding: 15px 15px;
+}
+div #transfermarkt {
+	/* górny margines */
+	margin-top: 2px;
+	/* wyjustowanie tekstu */
+	text-align: justify;
+	/* wielkość tekstu */
+	font-size: 20px;
+	/* obrys tekstu */
+	outline: 2px solid #009999;
+	/* obrys w środku diva */
+	outline-offset: -4px;
+	/* margines wewnętrzny */
+	padding: 15px 15px;
+}
+div #gole {
+	/* górny margines */
+	margin-top: 2px;
+	/* wyjustowanie tekstu */
+	text-align: justify;
+	/* wielkość tekstu */
+	font-size: 20px;
+	/* obrys tekstu */
+	outline: 2px solid #009999;
+	/* obrys w środku diva */
+	outline-offset: -4px;
+	/* margines wewnętrzny */
+	padding: 15px 15px;
+}
+div #asysty {
+	/* górny margines */
+	margin-top: 2px;
+	/* wyjustowanie tekstu */
+	text-align: justify;
+	/* wielkość tekstu */
+	font-size: 20px;
+	/* obrys tekstu */
+	outline: 2px solid #009999;
+	/* obrys w środku diva */
+	outline-offset: -4px;
+	/* margines wewnętrzny */
+	padding: 15px 15px;
+}
+div #podstawy {
+	/* górny margines */
+	margin-top: 2px;
+	/* wyjustowanie tekstu */
+	text-align: justify;
+	/* wielkość tekstu */
+	font-size: 20px;
+	/* obrys tekstu */
+	outline: 2px solid #009999;
+	/* obrys w środku diva */
+	outline-offset: -4px;
+	/* margines wewnętrzny */
+	padding: 15px 15px;
+}
+div #coDaje {
+	/* górny margines */
+	margin-top: 2px;
+	/* wyjustowanie tekstu */
+	text-align: justify;
+	/* wielkość tekstu */
+	font-size: 20px;
+	/* obrys tekstu */
+	outline: 2px solid #009999;
+	/* obrys w środku diva */
+	outline-offset: -4px;
+	/* margines wewnętrzny */
+	padding: 15px 15px;
+}
+div #tricki {
+	/* górny margines */
+	margin-top: 2px;
+	/* wyjustowanie tekstu */
+	text-align: justify;
+	/* wielkość tekstu */
+	font-size: 20px;
+	/* obrys tekstu */
+	outline: 2px solid #009999;
+	/* obrys w środku diva */
+	outline-offset: -4px;
+	/* margines wewnętrzny */
+	padding: 15px 15px;
+}
+section#idTrybyGry {
+	/* górny margines */
+	margin-top: 2px;
+	/* wyjustowanie tekstu */
+	text-align: justify;
+	/* wielkość tekstu */
+	font-size: 20px;
+	/* obrys tekstu */
+	outline: 2px solid #009999;
+	/* obrys w środku diva */
+	outline-offset: -4px;
+	/* margines wewnętrzny */
+	padding: 15px 15px;
+}
+div #turniejowy {
+	/* górny margines */
+	margin-top: 2px;
+	/* wyjustowanie tekstu */
+	text-align: justify;
+	/* wielkość tekstu */
+	font-size: 20px;
+	/* obrys tekstu */
+	outline: 2px solid #009999;
+	/* obrys w środku diva */
+	outline-offset: -4px;
+	/* margines wewnętrzny */
+	padding: 15px 15px;
+}
+div #uproszczony {
+	/* górny margines */
+	margin-top: 2px;
+	/* wyjustowanie tekstu */
+	text-align: justify;
+	/* wielkość tekstu */
+	font-size: 20px;
+	/* obrys tekstu */
+	outline: 2px solid #009999;
+	/* obrys w środku diva */
+	outline-offset: -4px;
+	/* margines wewnętrzny */
+	padding: 15px 15px;
+}
+div #deathmatch {
+	/* górny margines */
+	margin-top: 2px;
+	/* wyjustowanie tekstu */
+	text-align: justify;
+	/* wielkość tekstu */
+	font-size: 20px;
+	/* obrys tekstu */
+	outline: 2px solid #009999;
+	/* obrys w środku diva */
+	outline-offset: -4px;
+	/* margines wewnętrzny */
+	padding: 15px 15px;
+}
+div #wyscigZbrojen {
+	/* górny margines */
+	margin-top: 2px;
+	/* wyjustowanie tekstu */
+	text-align: justify;
+	/* wielkość tekstu */
+	font-size: 20px;
+	/* obrys tekstu */
+	outline: 2px solid #009999;
+	/* obrys w środku diva */
+	outline-offset: -4px;
+	/* margines wewnętrzny */
+	padding: 15px 15px;
+}
+div #demolka {
+	/* górny margines */
+	margin-top: 2px;
+	/* wyjustowanie tekstu */
+	text-align: justify;
+	/* wielkość tekstu */
+	font-size: 20px;
+	/* obrys tekstu */
+	outline: 2px solid #009999;
+	/* obrys w środku diva */
+	outline-offset: -4px;
+	/* margines wewnętrzny */
+	padding: 15px 15px;
+}
+div #latajacySkaut {
+	/* górny margines */
+	margin-top: 2px;
+	/* wyjustowanie tekstu */
+	text-align: justify;
+	/* wielkość tekstu */
+	font-size: 20px;
+	/* obrys tekstu */
+	outline: 2px solid #009999;
+	/* obrys w środku diva */
+	outline-offset: -4px;
+	/* margines wewnętrzny */
+	padding: 15px 15px;
+}
+div #skrzydlowy {
+	/* górny margines */
+	margin-top: 2px;
+	/* wyjustowanie tekstu */
+	text-align: justify;
+	/* wielkość tekstu */
+	font-size: 20px;
+	/* obrys tekstu */
+	outline: 2px solid #009999;
+	/* obrys w środku diva */
+	outline-offset: -4px;
+	/* margines wewnętrzny */
+	padding: 15px 15px;
+}
+div #strefaZagrozenia {
+	/* górny margines */
+	margin-top: 2px;
+	/* wyjustowanie tekstu */
+	text-align: justify;
+	/* wielkość tekstu */
+	font-size: 20px;
+	/* obrys tekstu */
+	outline: 2px solid #009999;
+	/* obrys w środku diva */
+	outline-offset: -4px;
+	/* margines wewnętrzny */
+	padding: 15px 15px;
+}
+div #turniejeCasual {
+	/* górny margines */
+	margin-top: 2px;
+	/* wyjustowanie tekstu */
+	text-align: justify;
+	/* wielkość tekstu */
+	font-size: 20px;
+	/* obrys tekstu */
+	outline: 2px solid #009999;
+	/* obrys w środku diva */
+	outline-offset: -4px;
+	/* margines wewnętrzny */
+	padding: 15px 15px;
+}
+div #majory {
+	/* górny margines */
+	margin-top: 2px;
+	/* wyjustowanie tekstu */
+	text-align: justify;
+	/* wielkość tekstu */
+	font-size: 20px;
+	/* obrys tekstu */
+	outline: 2px solid #009999;
+	/* obrys w środku diva */
+	outline-offset: -4px;
+	/* margines wewnętrzny */
+	padding: 15px 15px;
+}
+div #transmisje {
+	/* górny margines */
+	margin-top: 2px;
+	/* wyjustowanie tekstu */
+	text-align: justify;
+	/* wielkość tekstu */
+	font-size: 20px;
+	/* obrys tekstu */
+	outline: 2px solid #009999;
+	/* obrys w środku diva */
+	outline-offset: -4px;
+	/* margines wewnętrzny */
+	padding: 15px 15px;
+}
+div #skandal {
+	/* górny margines */
+	margin-top: 2px;
+	/* wyjustowanie tekstu */
+	text-align: justify;
+	/* wielkość tekstu */
+	font-size: 20px;
+	/* obrys tekstu */
+	outline: 2px solid #009999;
+	/* obrys w środku diva */
+	outline-offset: -4px;
+	/* margines wewnętrzny */
+	padding: 15px 15px;
+}
+div #polskiSukces {
+	/* górny margines */
+	margin-top: 2px;
+	/* wyjustowanie tekstu */
+	text-align: justify;
+	/* wielkość tekstu */
+	font-size: 20px;
+	/* obrys tekstu */
+	outline: 2px solid #009999;
+	/* obrys w środku diva */
+	outline-offset: -4px;
+	/* margines wewnętrzny */
+	padding: 15px 15px;
+}
+div #rodzajeBroni {
+	/* górny margines */
+	margin-top: 2px;
+	/* wyjustowanie tekstu */
+	text-align: justify;
+	/* wielkość tekstu */
+	font-size: 20px;
+	/* obrys tekstu */
+	outline: 2px solid #009999;
+	/* obrys w środku diva */
+	outline-offset: -4px;
+	/* margines wewnętrzny */
+	padding: 15px 15px;
+}
+div #wPraktyce {
+	/* górny margines */
+	margin-top: 2px;
+	/* wyjustowanie tekstu */
+	text-align: justify;
+	/* wielkość tekstu */
+	font-size: 20px;
+	/* obrys tekstu */
+	outline: 2px solid #009999;
+	/* obrys w środku diva */
+	outline-offset: -4px;
+	/* margines wewnętrzny */
+	padding: 15px 15px;
+}
+div #rodzajeGranatow {
+	/* górny margines */
+	margin-top: 2px;
+	/* wyjustowanie tekstu */
+	text-align: justify;
+	/* wielkość tekstu */
+	font-size: 20px;
+	/* obrys tekstu */
+	outline: 2px solid #009999;
+	/* obrys w środku diva */
+	outline-offset: -4px;
+	/* margines wewnętrzny */
+	padding: 15px 15px;
+}
+div #skiny {
+	/* górny margines */
+	margin-top: 2px;
+	/* wyjustowanie tekstu */
+	text-align: justify;
+	/* wielkość tekstu */
+	font-size: 20px;
+	/* obrys tekstu */
+	outline: 2px solid #009999;
+	/* obrys w środku diva */
+	outline-offset: -4px;
+	/* margines wewnętrzny */
+	padding: 15px 15px;
+}
+div #regulamin {
+	/* górny margines */
+	margin-top: 2px;
+	/* wyjustowanie tekstu */
+	text-align: justify;
+	/* wielkość tekstu */
+	font-size: 22px;
+	/* obrys tekstu */
+	outline: 2px solid #009999;
+	/* obrys w środku diva */
+	outline-offset: -4px;
+	/* margines wewnętrzny */
+	padding: 15px 15px;
+}
+div #FAQ {
+	/* górny margines */
+	margin-top: 2px;
+	/* wyjustowanie tekstu */
+	text-align: justify;
+	/* wielkość tekstu */
+	font-size: 22px;
+	/* obrys tekstu */
+	outline: 2px solid #009999;
+	/* obrys w środku diva */
+	outline-offset: -4px;
+	/* margines wewnętrzny */
+	padding: 15px 15px;
+}
+section#Pomoc {
+	/* górny margines */
+	margin-top: 2px;
+	/* wyjustowanie tekstu */
+	text-align: justify;
+	/* wielkość tekstu */
+	font-size: 22px;
+	/* obrys tekstu */
+	outline: 2px solid #009999;
+	/* obrys w środku diva */
+	outline-offset: -4px;
+	/* margines wewnętrzny */
+	padding: 15px 15px;
+}
+#tekstarea {
+	margin: auto;
+}
+#aTransfermarkt {
+	text-decoration: none;
+}
+/* nagłówek w akapicie */
+.spanHeader {
+	/* wielkość tekstu */
+	font-size: 24px;
+	/* waga czcionki */
+	font-weight: bold;
+}
+/* styl przycisku */
+button {
+	/* umieszczenie go po prawej */
+	float: right;
+	overflow: hidden;
+}
+.zasady {
+	text-decoration: none;
+}
+table, tr, td, th {
+	text-align: center;
+	border: 2px solid black;
+	border-collapse: collapse;
+	margin: auto;
+}
+#topFiveCaption {
+	font-size: 24px;
+	font-weight: bold;
+}
+#prestigiousCupsCaption {
+	font-size: 24px;
+	font-weight: bold;
+}
+#topTenCaption {
+	font-size: 24px;
+	font-weight: bold;
+}
+#themostExpensiveCaption {
+	font-size: 24px;
+	font-weight: bold;
+}
+#pilkarzeWartoscCaption {
+	font-size: 24px;
+	font-weight: bold;
+}
+figure {
+	text-align: center;
+}
+h1#goldenFive {
+	text-align: center;
+}
+h3#drogieSkiny {
+	text-align: center;
+}
+@media screen and (max-width: 1850px) {
+	#secondContentZasady {
+		height: 4200px;
+	}
+	#leftZasady {
+		height: 400px;
+	}
+	#rightZasady {
+		height: 3800px;
+	}
+	#secondContentRozgrywki, #leftRozgrywki, #rightRozgrywki {
+		height: 1250px;
+	}
+	#secondContentStatystyki, #leftStatystyki, #rightStatystyki {
+		height: 900px;
+	}
+	#secondContentPodstawy {
+		height: 1650px;
+	}
+	#leftPodstawy {
+		width: 100%;
+		height: 850px;
+		float: none;
+	}
+	#rightPodstawy {
+		width: 100%;
+		height: 800px;
+		float: none;
+	}
+}
+@media screen and (max-width: 1550px) {
+	#secondContent, #left, #right, #leftFootball {
+		height: 1000px;
+	}
+	#secondContentZasady {
+		height: 4400px;
+	}
+	#leftZasady {
+		height: 400px;
+	}
+	#rightZasady {
+		height: 4000px;
+	}
+	#secondContentRozgrywki, #leftRozgrywki, #rightRozgrywki {
+		height: 1400px;
+	}
+	#secondContentSkakanka, #leftSkakanka, #rightSkakanka{
+		height: 1000px;
+	}
+	#secondContentCSGO, #leftCSGO, #rightCSGO {
+		height: 1000px;
+	}
+	#secondContentTrybyGry, #leftTrybyGry, #rightTrybyGry {
+		height: 1700px;
+	}
+	#secondContentWyposazenie, #leftWyposazenie, #rightWyposazenie {
+		height: 1000px;
+	}
+	#secondContentEsport, #leftEsport, #rightEsport {
+		height: 1300px;
+	}
+	#contentRegulamin {
+		height: 1300px;
+	}
+	#contentFAQ {
+		height: 1000px;
+	}
+}
+@media screen and (max-width: 1450px) {
+	#secondContentRozgrywki, #leftRozgrywki, #rightRozgrywki {
+		height: 1500px;
+	}
+}
+@media screen and (max-width: 1320px) {
+	#secondContentZasady {
+		height: 4700px;
+	}
+	#leftZasady {
+		height: 400px;
+	}
+	#rightZasady {
+		height: 4300px;
+	}
+	#secondContentRozgrywki, #leftRozgrywki, #rightRozgrywki {
+		height: 1600px;
+	}
+	#secondContentWyposazenie, #leftWyposazenie, #rightWyposazenie {
+		height: 1200px;
+	}
+	#secondContentEsport, #leftEsport, #rightEsport {
+		height: 1500px;
+	}
+}
+@media screen and (max-width: 1200px) {
+	#secondContent, #left, #right, #leftFootball {
+		height: 1300px;
+	}
+	#secondContentZasady {
+		height: 4900px;
+	}
+	#leftZasady {
+		height: 400px;
+	}
+	#rightZasady {
+		height: 4500px;
+	}
+	#secondContentRozgrywki, #leftRozgrywki, #rightRozgrywki {
+		height: 1800px;
+	}
+	#secondContentStatystyki {
+		height: 1500px;
+	}		
+	#leftStatystyki{
+		width: 100%;
+		float: none;
+		height: 700px;
+	}
+	#rightStatystyki {
+		width: 100%;
+		float: none;
+		height: 800px;
+	}
+	#secondContentSkakanka, #leftSkakanka, #rightSkakanka{
+		height: 1300px;
+	}
+	#secondContentPodstawy {
+		height: 1850px;
+	}
+	#leftPodstawy {
+		width: 100%;
+		height: 850px;
+		float: none;
+	}
+	#rightPodstawy {
+		width: 100%;
+		height: 1000px;
+		float: none;
+	}
+	#secondContentTricki {
+		height: 1700px;
+	}
+	#leftTricki {
+		width: 100%;
+		height: 850px;
+		float: none;
+	}
+	#rightTricki {
+		width: 100%;
+		height: 850px;
+		float: none;
+	}
+		#secondContentTrybyGry, #leftTrybyGry, #rightTrybyGry {
+		height: 2000px;
+	}
+	#contentRegulamin {
+		height: 1500px;
+	}
+	#contentFAQ {
+		height: 1200px;
+	}
+}
+@media screen and (max-width: 1050px) {
+	#secondContentZasady {
+		height: 5100px;
+	}
+	#leftZasady {
+		height: 400px;
+	}
+	#rightZasady {
+		height: 4700px;
+	}
+	#secondContentRozgrywki, #leftRozgrywki, #rightRozgrywki {
+		height: 2000px;
+	}
+	#secondContentStatystyki {
+		height: 1900px;
+	}		
+	#leftStatystyki{
+		width: 100%;
+		float: none;
+		height: 700px;
+	}
+	#rightStatystyki {
+		width: 100%;
+		float: none;
+		height: 1200px;
+	}
+	#lewaSekcja {
+		width: 100%;
+		float: none;
+	}	
+	#prawaSekcja {
+		width: 100%;
+		float: none;
+	}
+	#secondContentPropozycje {
+		height: 1400px;
+	}
+	#leftPropozycje{
+		width: 100%;
+		height: 600px;
+		float: none;
+		overflow: hidden;
+	}
+	#rightPropozycje {
+		width: 100%;
+		height: 800px;
+		float: none;
+		overflow: hidden;
+	}
+	#secondContentCSGO, #leftCSGO, #rightCSGO {
+		height: 1200px;
+	}
+	#secondContentWyposazenie, #leftWyposazenie, #rightWyposazenie {
+		height: 1400px;
+	}
+	#secondContentEsport, #leftEsport, #rightEsport {
+		height: 1700px;
+	}
+}
+@media screen and (max-width: 950px) {
+	#secondContentZasady {
+		height: 5300px;
+	}
+	#leftZasady {
+		height: 400px;
+	}
+	#rightZasady {
+		height: 4900px;
+	}
+	#secondContentRozgrywki {
+		height: 2500px;
+	}
+	#leftRozgrywki {
+		width: 100%;
+		float: none;
+		height: 800px;
+	}
+	#rightRozgrywki {
+		width: 100%;
+		float: none;
+		height: 1700px;
+	}
+	#secondContentPodstawy {
+		height: 2050px;
+	}
+	#leftPodstawy {
+		width: 100%;
+		height: 850px;
+		float: none;
+	}
+	#rightPodstawy {
+		width: 100%;
+		height: 1200px;
+		float: none;
+	}
+	#secondContentTrybyGry {
+		height: 3500px;
+	}
+	#leftTrybyGry {
+		height: 1500px;
+		width: 100%;
+	}
+	#rightTrybyGry {
+		height: 2000px;
+		width: 100%;
+	}
+	#contentRegulamin {
+		height: 1700px;
+	}
+	#contentFAQ {
+		height: 1400px;
+	}
+}
+@media screen and (max-width: 875px) {
+	#secondContentZasady {
+		height: 5700px;
+	}
+	#leftZasady {
+		height: 400px;
+	}
+	#rightZasady {
+		height: 5300px;
+	}
+	#secondContentRozgrywki {
+		height: 2700px;
+	}
+	#leftRozgrywki {
+		width: 100%;
+		float: none;
+		height: 800px;
+	}
+	#rightRozgrywki {
+		width: 100%;
+		float: none;
+		height: 1900px;
+	}
+	#secondContentCSGO, #leftCSGO, #rightCSGO {
+		height: 1400px;
+	}
+}
+@media screen and (max-width: 800px) {
+	#secondContent, #left, #right, #leftFootball {
+		height: 1780px;
+	}
+	#secondContentZasady {
+		height: 6100px;
+	}
+	#leftZasady {
+		height: 400px;
+	}
+	#rightZasady {
+		height: 5700px;
+	}
+	#leftFootball {
+		background: url(cr7.jpg) top no-repeat, url(cr7rezerwa1.jpg) bottom no-repeat;
+	}
+	#secondContentRozgrywki {
+		height: 2900px;
+	}
+	#leftRozgrywki {
+		width: 100%;
+		float: none;
+		height: 800px;
+	}
+	#rightRozgrywki {
+		width: 100%;
+		float: none;
+		height: 2100px;
+	}
+	#secondContentSkakanka, #leftSkakanka, #rightSkakanka{
+	height: 1780px;
+	}
+	#secondContentTrybyGry {
+		height: 4000px;
+	}
+	#leftTrybyGry {
+		height: 1500px;
+		width: 100%;
+	}
+	#rightTrybyGry {
+		height: 2500px;
+		width: 100%;
+	}
+	#secondContentWyposazenie {
+		height: 2000px;
+	}
+	#leftWyposazenie {
+		width: 100%;
+		height: 800px;
+	}
+	#rightWyposazenie {
+		height: 1200px;
+		width: 100%;
+	}
+	#secondContentEsport {
+		height: 2200px;
+	}
+	#leftEsport {
+		width: 100%;
+		height: 800px;
+	}
+	#rightEsport {
+		height: 1400px;
+		width: 100%;
+	}
+}
+@media screen and (max-width: 750px) {
+	#secondContentZasady {
+		height: 6500px;
+	}
+	#leftZasady {
+		height: 400px;
+	}
+	#rightZasady {
+		height: 6100px;
+	}
+		#secondContentCSGO, #leftCSGO, #rightCSGO {
+		height: 1600px;
+	}
+	#secondContentWyposazenie {
+		height: 2200px;
+	}
+	#leftWyposazenie {
+		width: 100%;
+		height: 800px;
+	}
+	#rightWyposazenie {
+		height: 1400px;
+		width: 100%;
+	}
+	#secondContentEsport {
+		height: 2600px;
+	}
+	#leftEsport {
+		width: 100%;
+		height: 800px;
+	}
+	#rightEsport {
+		height: 1800px;
+		width: 100%;
+	}
+}
+@media screen and (max-width: 700px) {
+	#secondContentZasady {
+		height: 7000px;
+	}
+	#leftZasady {
+		height: 400px;
+	}
+	#rightZasady {
+		height: 6600px;
+	}
+	#secondContentRozgrywki {
+		height: 3400px;
+	}
+	#leftRozgrywki {
+		width: 100%;
+		float: none;
+		height: 800px;
+	}
+	#rightRozgrywki {
+		width: 100%;
+		float: none;
+		height: 2600px;
+	}
+	#secondContentStatystyki {
+	height: 2300px;
+	}		
+	#leftStatystyki{
+	width: 100%;
+	float: none;
+	height: 700px;
+	}
+	#rightStatystyki {
+	width: 100%;
+	float: none;
+	height: 1600px;
+	}
+	#lewaSekcja {
+	width: 100%;
+	float: none;
+	}	
+	#prawaSekcja {
+	width: 100%;
+	float: none;
+	}
+	#secondContentCSGO, #leftCSGO, #rightCSGO {
+		height: 1800px;
+	}
+	#contentRegulamin {
+		height: 1900px;
+	}
+	#contentFAQ {
+		height: 1600px;
+	}
+}
+@media screen and (max-width: 600px) {
+	#secondContent, #left, #right, #leftFootball {
+		height: 2200px;
+	}
+	#secondContentZasady {
+		height: 8000px;
+	}
+	#leftZasady {
+		height: 400px;
+	}
+	#rightZasady {
+		height: 7600px;
+	}
+	#leftFootball {
+		background: url(cr7.jpg) top no-repeat, url(cr7rezerwa3.jpg) bottom no-repeat;
+	}
+	#secondContentRozgrywki {
+		height: 3800px;
+	}
+	#leftRozgrywki {
+		width: 100%;
+		float: none;
+		height: 800px;
+	}
+	#rightRozgrywki {
+		width: 100%;
+		float: none;
+		height: 3000px;
+	}
+	#secondContentSkakanka, #leftSkakanka, #rightSkakanka{
+	height: 2200px;
+	}
+	#secondContentPodstawy {
+		height: 2250px;
+	}
+	#leftPodstawy {
+		width: 100%;
+		height: 850px;
+		float: none;
+	}
+	#rightPodstawy {
+		width: 100%;
+		height: 1400px;
+		float: none;
+	}
+	#secondContentCSGO, #leftCSGO, #rightCSGO {
+		height: 2200px;
+	}
+	#secondContentTrybyGry {
+		height: 4400px;
+	}
+	#leftTrybyGry {
+		height: 1500px;
+		width: 100%;
+	}
+	#rightTrybyGry {
+		height: 2900px;
+		width: 100%;
+	}
+	#secondContentWyposazenie {
+		height: 2400px;
+	}
+	#leftWyposazenie {
+		width: 100%;
+		height: 800px;
+	}
+	#rightWyposazenie {
+		height: 1600px;
+		width: 100%;
+	}
+	#secondContentEsport {
+		height: 2800px;
+	}
+	#leftEsport {
+		width: 100%;
+		height: 800px;
+	}
+	#rightEsport {
+		height: 2000px;
+		width: 100%;
+	}
+	#contentRegulamin {
+		height: 2100px;
+	}
+	#contentFAQ {
+		height: 2000px;
+	}
+}
+@media screen and (max-width: 520px) {
+	#secondContentZasady {
+		height: 9500px;
+	}
+	#leftZasady {
+		height: 400px;
+	}
+	#rightZasady {
+		height: 9100px;
+	}
+	#secondContentWyposazenie {
+		height: 2800px;
+	}
+	#leftWyposazenie {
+		width: 100%;
+		height: 800px;
+	}
+	#rightWyposazenie {
+		height: 2000px;
+		width: 100%;
+	}
+}
+@media screen and (max-width: 500px) {
+	#secondContent, #left, #right, #leftFootball {
+		height: 2450px;
+	}
+	#leftFootball {
+		background: url(cr7.jpg) top no-repeat, url(cr7rezerwa3.jpg) bottom no-repeat;
+	}
+	#secondContentRozgrywki {
+		height: 4200px;
+	}
+	#leftRozgrywki {
+		width: 100%;
+		float: none;
+		height: 900px;
+	}
+	#rightRozgrywki {
+		width: 100%;
+		float: none;
+		height: 3300px;
+	}
+	#secondContentSkakanka, #leftSkakanka, #rightSkakanka{
+	height: 2450px;
+	}
+	#secondContentCSGO, #leftCSGO, #rightCSGO {
+		height: 2400px;
+	}
+	#contentRegulamin {
+		height: 2300px;
+	}
+	#contentFAQ {
+		height: 2300px;
+	}
+}

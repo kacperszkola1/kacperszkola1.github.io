@@ -1,0 +1,93 @@
+<!doctype html>
+<!-- język kodu -->
+<html lang="pl-PL">
+<!-- język strony -->
+	<head>
+		<meta charset="UTF-8">
+		<!-- standard kodowania -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- rozciągalność mobilna -->
+		<meta name="description" content="Strona przedstawiające moje hobby">
+		<!-- opis strony -->
+		<meta name="keywords" content="Hobby, Piłka Nożna, Skakanka, CS:GO">
+		<!-- słowa kluczowe -->
+		<meta name="author" content="Kasper King">
+		<!-- autor -->
+		<link rel="stylesheet" href="styl.css">
+		<!-- odwołanie do pliku stylów -->
+		<title>Skakanka</title>
+		<!-- tytuł -->
+		<script src="skrypt.js"></script>
+	</head>
+	<body>
+		<div id="header">
+			<!-- obrazek z lewej -->
+			<img id="miniPicture1" src="jumpRope1.png">
+				<!-- tekst nagłówkowy -->
+				<h1 id="tekstNaglowkowy">Skakanka</h1>
+			<!-- obrazek z prawej -->
+			<img id="miniPicture2" src="jumpRope2.png">
+		</div>
+		<div id="mainHeader">
+		<!-- nagłówek -->
+			<ul id="block">
+				<li id="inHeader"><a href="index.html">Strona Główna</a></li>
+				<!-- strona główna -->
+				<li id="inHeader"><a href="pilkaNozna.html">Piłka Nożna</a>
+				<!-- strona o piłce nożnej -->
+					<ul>
+						<li><a href="pilkaZasady.html">Zasady</a></li>
+						<li><a href="pilkaRozgrywki.html">Rozgrywki</a></li>
+						<li><a href="pilkaStatystyki.html">Statystyki</a></li>
+					</ul>
+				</li>
+				<li id="inHeader"><a href="skakanka.html">Skakanka</a>
+				<!-- strona o skakance-->
+					<ul>
+						<li><a href="skakankaPodstawy.html">Podstawy</a></li>
+						<li><a href="skakankaPropozycje.html">Propozycje</a></li>
+						<li><a href="skakankaTricki.html">Tricki</a></li>
+					</ul>
+				<!-- menu zagnieżdzone -->
+				</li>
+				<li id="inHeader"><a href="csgo.html">CS:GO</a>
+				<!-- strona o cs:go-->
+				<ul>
+					<li><a href="csgoTrybyGry.html">Tryby gry</a></li>
+					<li><a href="csgoEsport.html">CS:GO w e-sporcie</a></li>
+					<li><a href="csgoWyposazenie.html">Wyposażenie</a></li>
+				</ul>
+				<!-- menu zagnieżdzone -->
+				</li>
+			</ul>
+	</div>
+	<div id="secondContentPropozycje">
+		<div id="leftPropozycje">
+			<hr id="leftUp">
+			<h2>Propozycje skakanek:</h2>
+			<br><img onclick="skakanka1()" alt="skakanka1" src="skakanka1_mini.png"><br>
+			<br><img onclick="skakanka2()" alt="skakanka2" src="skakanka2_mini.png"><br>
+			<br><img onclick="skakanka3()" alt="skakanka3" src="skakanka3_mini.png"><br>
+			<br><img onclick="skakanka4()" alt="skakanka4" src="skakanka4_mini.png">
+		</div>
+		<div id="rightPropozycje">
+			<p id="Propozycje">
+				<p id="tytul">Skakanka z licznikiem - 59,99 zł</p>
+				<h2><a id="odnosnik" href="https://www.decathlon.pl/p/skakanka-z-licznikiem/_/R-p-8956?mc=8556909&c=Czerwony">DECATHLON</a></h2>
+				<img src="skakanka1.png" alt="foto" id="skakankaObraz">
+			</p>	
+		</div>
+	</div>
+	<div id="footer">
+		<!-- stopka -->
+		<ul>
+				<li id="inFooter"><a href="regulamin.html">Regulamin</a></li>
+				<!-- strona z regulaminem -->
+				<li id="inFooter"><a href="faq.html">FAQ</a></li>
+				<!-- strona z najczęściej zadawanymi pytaniami -->
+				<li id="inFooter"><a href="pomoc.html">Pomoc</a></li>
+				<!-- strona z możliwością wysłania wiadomości o pomoc -->
+		</ul>
+	</div>
+	</body>
+</html>
